@@ -1,0 +1,168 @@
+body {
+  background: #E0E7E9;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+/*Nav Content*/
+nav {
+  height: 50px;
+  width: 100%;
+  background: #354649;
+  display: inline-block;
+}
+
+nav img {
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin: 7px 0 0 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+nav ul {
+  margin: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+/*Header Content*/
+header {
+  background-image: url(https://images.pexels.com/photos/132957/pexels-photo-132957.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 25px;
+  margin-top: -4px;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+header img {
+  height: 275px;
+  width: 275px;
+  border-radius: 50%;
+  border: 2px solid #6C7A89;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+/*Main Content x 3*/
+.container {
+  padding-bottom: 15px;
+}
+
+.container:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.content {
+  width: 30%;
+  padding: 0 1.66%;
+  float: left;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.content img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #6C7A89;
+  margin: 0 auto;
+  display: block;
+}
+ .content {
+   text-align: center;
+ }
+/*Social*/
+.social {
+  background: #6C7A89;
+  padding: 15px 0;
+}
+
+.social h3, .social p{
+  text-align: center;
+  color: #FFF;
+}
+
+.social p a {
+  color: #FFF;
+}
+
+.social p a:hover {
+    color: #354649;
+}
+
+.mediaLinks {
+  text-align: center;
+}
+
+.mediaLinks a {
+  margin: 0 10px;
+  color: #FFF;
+}
+
+.fa-facebook-square:hover {
+  color: #3B5998;
+}
+
+.fa-twitter-square:hover {
+  color: #00aced;
+}
+
+.fa-instagram:hover {
+  color: #bc2a8d;
+}
+
+.fa-linkedin-square:hover {
+  color: #007bb6;
+}
+/*Button Styling*/
+button {
+  padding: 10px;
+  margin: 5px auto 15px auto;
+  border-radius: 10px;
+  border: 2px solid #6C7A89;
+  width: 110px;
+  background: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+/*Media Screen Styling*/
+@media screen and (max-width: 700px) {
+  .content {
+    width: 100%;
+  }
+
+  p {
+    width: 250px;
+    margin: 14px auto;
+  }
+
+  button {
+    width: 225px;
+  }
+}
